@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+.menu{
+    width: 500px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.lista > li{
+    float: left;
+}
+
+.lista li a{
+    background-color: burlywood;
+    color: brown;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+}
+
+.lista li a:hover{
+    background-color: coral;
+}
+.lista li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.lista li:hover > ul{
+    display: block;
+}
