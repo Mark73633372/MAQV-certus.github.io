@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+}
+
+html{
+    background-color: rgb(189, 216, 207);
+}
+.menu{
+    background-color: rgb(243, 171, 77);
+    text-align: center;
+    margin: 0px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    padding: 30px;
+    color: rgb(44, 115, 248);
+    text-decoration: none;
+    display: block;
+}
+
+.menu a:hover{
+    background-color: rgb(214, 218, 23);
+    font-size: large;
+}
+
+.central{
+    background-color: rgb(248, 113, 63);
+    color: blanchedalmond;
+    text-align: center;
+    overflow: hidden; /* quistar el espacio suprimido*/
+    padding: 40px;
+}
+
+.contorno{
+    background-color: rgb(88, 206, 241);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(179, 182, 181);
+    /* somb-x / somb-y / desenf-radio / color */
+    text-shadow: -3px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000;
+    padding: 40px;
+}
+/*.neon{
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 30px; 
+    COLOR: #1278BF; 
+    text-shadow: 0px 0px 10px #c5e418;
+}*/
+
+/*.l3d{
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: #fff; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}*/
+
+.foto{
+    width: 80%;
+    height: 100%;
+    margin: 0 220px 0 240px;
+    /* background-color: #bbb; */
+    text-align: center;
+}
+
+.foto img{
+    width: 80%;
+    height: 90%;
+    /* la imagen se ajusta al contenido */
+    object-fit: contain;
+    /*mover la imagen dentro de un contenico*/
+    object-position: 20px 25px 25px 20px;
+}
+
+.caption{
+    font-size: 20px;
+    color: blueviolet;
+    caption-side: bottom;
+    border: 2px solid chocolate;
+}
+table{
+    /* para cambiar el tamaño de las columnas */
+    /* table-layout: auto; width: 60%;
+    margin: 0 30px 0 30px;
+    table-layout: fixed; width: 100%; */
+    width: 75%;
+    margin: 0 auto;
+}
+
+.cabeza td{
+    background-color: goldenrod;
+    color: blueviolet;
+}
+
+td, tr{
+    width: 25%;
+    text-align: center;
+    /* solid=linea entera; dashed=linea entercortada; dotted=puntos lineales */
+    border: 1px solid coral;
+}
+
+.fotos h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.turismo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.postal{
+    padding: 0 20px 20px;
+}
+
+.postal img{
+    width: 250px;
+}
+
+img:hover{
+    opacity: .8;
+    transition: 7s;
+}
+
+.footer{
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
