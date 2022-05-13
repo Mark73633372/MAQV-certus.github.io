@@ -6,7 +6,7 @@ html{
     background-color: rgb(189, 216, 207);
 }
 .menu{
-    background-color: burlywood;
+    background-color: rgb(243, 171, 77);
     text-align: center;
     margin: 0px;
 }
@@ -17,18 +17,18 @@ html{
 
 .menu a{
     padding: 30px;
-    color: rgb(37, 161, 47);
+    color: rgb(44, 115, 248);
     text-decoration: none;
     display: block;
 }
 
 .menu a:hover{
-    background-color: rgb(193, 196, 18);
+    background-color: rgb(214, 218, 23);
     font-size: large;
 }
 
 .central{
-    background-color: coral;
+    background-color: rgb(248, 113, 63);
     color: blanchedalmond;
     text-align: center;
     overflow: hidden; /* quistar el espacio suprimido*/
@@ -36,6 +36,7 @@ html{
 }
 
 .contorno{
+    background-color: rgb(88, 206, 241);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -43,6 +44,7 @@ html{
     color: rgb(179, 182, 181);
     /* somb-x / somb-y / desenf-radio / color */
     text-shadow: -3px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000;
+    padding: 40px;
 }
 /*.neon{
     text-align: center; 
@@ -63,24 +65,26 @@ html{
 
 .foto{
     width: 80%;
-    height: 80%;
-    margin: 0 60px 0 60px;
+    height: 100%;
+    margin: 0 220px 0 240px;
     /* background-color: #bbb; */
+    text-align: center;
 }
 
 .foto img{
     width: 80%;
-    height: 80%;
+    height: 90%;
     /* la imagen se ajusta al contenido */
     object-fit: contain;
     /*mover la imagen dentro de un contenico*/
-    object-position: 10px 20px 20px 10px;
+    object-position: 20px 25px 25px 20px;
 }
 
 .caption{
     font-size: 20px;
     color: blueviolet;
     caption-side: bottom;
+    border: 2px solid chocolate;
 }
 table{
     /* para cambiar el tamaño de las columnas */
@@ -93,6 +97,7 @@ table{
 
 .cabeza td{
     background-color: goldenrod;
+    color: blueviolet;
 }
 
 td, tr{
@@ -127,4 +132,9 @@ td, tr{
 img:hover{
     opacity: .8;
     transition: 7s;
+}
+
+.footer{
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
 }

@@ -31,7 +31,7 @@ ul{
     display: none;
     position: absolute;
     min-width: 140px;
-}
+} */
 
 .lista li:hover > ul{
     display: block;
