@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color:rgb(14, 68, 185) ;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo > img{
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(189, 21, 21);
+}
+
+nav > a{
+    font-weight: 700; /* negrita */
+    padding-right: 20px;
+}
+
+nav a:hover{
+    color: cornflowerblue;
+}
+
+.text{
+    text-decoration: none;
+    margin: 10px 0px 10px 0px;
+}
+
+.pa{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+    color: blue;
+}
+
+.text > h2{
+    text-align: left;
+    background-color:rgb(255, 255, 255);
+    color: rgb(11, 11, 14);
+    margin: 40px 30px 0 30px;
+}
+
+.mg > img{
+    float: right;
+    height: 25%;
+    width: 45%;
+}
+
+.lt{
+    margin: 150px 30px 0 30px;
+}
+
+.pb{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+    color: blue;
+}
+
+.ma > img{
+    float: left;
+    height: 25%;
+    width: 40%;
+}
+
+.lt .ac{
+    margin: 20px 20px 20px 20px;
+}
+
+.pt{
+    margin: 180px 30px 0 30px;
+}
+
+.pc{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+    color: blue;
+}
+
+
+.mc > img{
+    float: right;
+    height: 25%;
+    width: 45%;
+}
+
+.pie{
+    background-color: darkgoldenrod;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border: 3px solid rgb(226, 192, 38);
+    align-items: center;
+    text-align: center;
+    margin: 150px 0 0 0;
+}
